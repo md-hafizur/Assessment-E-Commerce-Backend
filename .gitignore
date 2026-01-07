@@ -1,0 +1,79 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+*.log
+logs/
+uvicorn.log
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Database
+# ===============================
+*.sqlite3
+*.db
+
+# ===============================
+# Pytest / Coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+*.pid
+
+# ===============================
+# Migrations (if using Alembic)
+# ===============================
+alembic.ini
+!alembic.ini.example
+docs
